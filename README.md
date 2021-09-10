@@ -38,3 +38,20 @@ A t-test run on Lot 1 (Fig. 2) outputs a p value of 1, which is greater than the
 A t-test run on Lot 2 (Fig. 3) outputs a p value of 0.6, which is greater than the significance threshold of 0.05. Here, we do not have enough evidence to reject the null hypothesis.
 
 A t-test run on Lot 3 outputs a p value of 0.04, which is less than the significance threshold of 0.05. Here, we reject the null hypothesis and accept the alternative hypothesis. This coincides with information found in variable 2, where Lot 3 also had the highest variance.
+
+## Study Design: MechaCar vs Competition
+Study goal: Quantify the performance of MechaCar against competition. Data of the metrics listed below will be collected over 10 years.
+
+Metrics to quantify/test: 
+-miles per hour (mph)
+-turning radius
+-weight of car
+
+Null hypothesis: MechaCar performs the same as other competitor car models.
+
+Alternative hypothesis: MechCar performs differently than other competitor cal models.
+
+Method of evaluation:  Generally, cars are preferred to have higher mph, higher torque, and a lower turning radius. Therefore, a t-test can be used to compare each metric individually to the competitor's metric. For example, the mph of two cars can be compared to see if one is statistically significant (higher or lower) than the others. If MechaCAR is being compared to multiple companies, a one-way ANOVA can be used instead of multiple t-tests without post-test corrections. Additionally, linear regression can be used to determine how each of these variables affect the other variables. For example, does torque affect mph? Linear regression can provide clarity to these relationships by looking at the correlation coefficient.
+
+
+
