@@ -29,13 +29,32 @@ Results: The total variance of the suspension coils is ~62 PSI, which is within 
 ## T-Tests on Suspension Coils
 Null hypothesis: The PSI across all manufacturing lots is the same as (or not statistically different) from the population mean of 1,500 PSI.
 
+**Fig. 1**
+
+<img width="431" alt="t_test_all_lots" src="https://user-images.githubusercontent.com/45336910/132851313-ec8f0ef5-4e84-4f50-95f2-8b2e5d753385.png">
+
+
 A t-test run on all manufacturing lots (Fig. 1) outputs a p value of 0.06, which is greater than the significance threshold of 0.05. Here, we do not have enough evidence to reject the null hypothesis.
 
 Null hypothesis: The PSI of each individual lot is the same as (or not statistically different) from the population mean of 1,500 PSI.
 
+**Fig. 2**
+
+<img width="525" alt="t_test_lot1" src="https://user-images.githubusercontent.com/45336910/132851325-eb6ea16d-34e7-495c-aede-77654f4624dc.png">
+
 A t-test run on Lot 1 (Fig. 2) outputs a p value of 1, which is greater than the significance threshold of 0.05. Here, we do not have enough evidence to reject the null hypothesis.
 
+**Fig. 3**
+
+<img width="483" alt="t_test_lot2" src="https://user-images.githubusercontent.com/45336910/132851349-d7331a84-b32d-4833-accb-8a14e8910396.png">
+
+
 A t-test run on Lot 2 (Fig. 3) outputs a p value of 0.6, which is greater than the significance threshold of 0.05. Here, we do not have enough evidence to reject the null hypothesis.
+
+**Fig. 4**
+
+<img width="525" alt="t_test_lot3" src="https://user-images.githubusercontent.com/45336910/132851365-9f075e3b-f9b2-4ebd-9a40-6f618e18ed8b.png">
+
 
 A t-test run on Lot 3 outputs a p value of 0.04, which is less than the significance threshold of 0.05. Here, we reject the null hypothesis and accept the alternative hypothesis. This coincides with information found in variable 2, where Lot 3 also had the highest variance.
 
