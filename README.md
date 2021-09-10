@@ -15,7 +15,7 @@ Results:
 
 - Given a p-value <0.05, we can reject our null hypothesis that the slope is 0 (no variables affect mpg). Therefore, we can assume that the slope here is non-zero.
 
--Our R value is 0.71, suggesting that the linear model can predict mpg of MechaCar prototypes better than chance (R value of 0.5). 
+- Our R value is 0.71, suggesting that the linear model can predict mpg of MechaCar prototypes better than chance (R value of 0.5). 
 
 ## Summary Statistics on Suspension Coils
 Data: Suspension_coil.csv
